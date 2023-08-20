@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: #d8cefb;
+}
+.container{
+    position: absolute;
+    width: 350px;
+    height: 370px;
+    background-color: #b29ef7;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+}
+.form-header{
+    background-color: #8b6df2;
+    text-align: center;
+    font-size: medium;
+    padding: 3px;
+    color: white;
+}
+.field{
+    font-size: 16px;
+    font-weight: 400;
+    width: 100%;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border-radius: 20px;
+    border: 1px solid #653dee;
+    outline: none;
+}
+.form-body{
+    padding: 20px;
+}
+.forgot{
+    float: right;
+    text-decoration: none;
+    font-size: large;
+    color: #3e0cea;
+}
+.checkbox{
+    margin: 15px 0 25px;
+    padding: 0 10px;
+}
+.remember{
+    margin-right: 5px;
+    cursor: pointer;
+}
+.form-footer{
+    text-align: center;
+    font-size: large;
+}
+.signup{
+    text-decoration: none;
+    font-size: large;
+    color: #3e0cea;
+}
+button{
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 1px solid #653dee;
+    background-color: #3e0cea;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover{
+    opacity: 0.8;
+}
